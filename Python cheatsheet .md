@@ -1,3 +1,17 @@
+
+class Animal:
+    def __init__(self, name, group, legs):
+        self.name = name
+        self.group = group
+        self.legs = legs
+
+# Creating an object
+dog = Animal("Dog", "Mammal", 4)
+
+print(dog.name)  # Output: Dog
+print(dog.group)  # Output: Mammal
+print(dog.legs)  # Output: 4
+
 **📌Variables**
 x = 10  # Integer
 name = "Alice"  # String
