@@ -1,4 +1,4 @@
-# main.py
+
 from animal import Animal
 
 # Creating instances

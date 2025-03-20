@@ -46,4 +46,4 @@ def add_student():
 
 def display_students():
     for s in students:
-        print(f"{s['first_name']} {s['last_name']} - {s['index_number']} - {s['nationality']} - {s['starting_date']} - Courses: {', '.join(s['courses'])}"şo)
+        print(f"{s['first_name']} {s['last_name']} - {s['index_number']} - {s['nationality']} - {s['starting_date']} - Courses: {', '.join(s['courses'])}")
