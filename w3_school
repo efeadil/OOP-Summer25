@@ -1,0 +1,69 @@
+# Python Variables
+
+# Variable assignment
+x = 5           # Integer variable
+y = "Hello"     # String variable
+
+# Print variables
+print("x:", x)
+print("y:", y)
+
+# Changing the value of a variable
+x = 10
+print("New value of x:", x)
+
+# Multiple variables in one line
+a, b, c = 3, 4, 5
+print("a:", a, "b:", b, "c:", c)
+
+# Global and Local variables
+def my_function():
+    z = 20  # Local variable
+    print("Inside function, z:", z)
+
+my_function()
+# Uncommenting the next line will cause an error because z is local to the function.
+# print("Outside function, z:", z)
+
+
+
+
+
+
+# Python Data Types
+
+# Integer (int)
+x = 10
+print("Integer:", x)
+
+# Float
+y = 10.5
+print("Float:", y)
+
+# String
+name = "Python"
+print("String:", name)
+
+# List (Array-like data structure)
+fruits = ["apple", "banana", "cherry"]
+print("List:", fruits)
+
+# Tuple (Immutable list)
+coordinates = (4, 5)
+print("Tuple:", coordinates)
+
+# Dictionary (key-value pairs)
+person = {"name": "Alice", "age": 25}
+print("Dictionary:", person)
+
+# Boolean (True or False)
+is_active = True
+print("Boolean:", is_active)
+
+# Set (Collection of unique items)
+unique_numbers = {1, 2, 3, 4}
+print("Set:", unique_numbers)
+
+# Type Checking
+print("Type of x:", type(x))
+print("Type of name:", type(name))
