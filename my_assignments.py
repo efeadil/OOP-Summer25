@@ -1,7 +1,8 @@
 # 1. Print your name on the screen
 print("My name is Efe")
 
-# 2. Create a variable and assign a value (string or number)
+# 2. 
+variable and assign a value (string or number)
 name = "Efe"
 age = 20
 
